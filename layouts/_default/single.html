@@ -46,6 +46,24 @@
     {{- end -}}
   </div>
 
+
+<div class="share-buttons">
+    <p>Share this post:</p>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" 
+       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" 
+       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" 
+       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+        <i class="fab fa-x-twitter"></i> X (Twitter)
+    </a>
+</div>
+
+
   {{ if eq .Type $.Site.Params.contentTypeName }}
     {{ partial "posts_pagination.html" . }}
   {{ end }}

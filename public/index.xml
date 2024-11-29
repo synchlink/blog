@@ -8,15 +8,82 @@
     <language>en</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>//localhost:1313/posts/chatting-smarter-with-rtx-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/chatting-smarter-with-rtx-integration/</guid>
+      <description>&lt;h1 id=&#34;chatting-smarter-with-rtx-integration&#34;&gt;Chatting Smarter with RTX Integration&lt;/h1&gt;
+&lt;p&gt;11/28/2024&lt;/p&gt;
+&lt;h2 id=&#34;understanding-llms&#34;&gt;Understanding LLMs&lt;/h2&gt;
+&lt;p&gt;Most readers are likely already familiar with the concept of LLMs (Large Language Models). In today’s world, it’s hard not to be at least indirectly aware of AI, especially in the form of LLMs. For those with only a limited understanding of this concept, let’s start with a brief introduction before diving into the main topic of this post.&lt;/p&gt;
+&lt;p&gt;An &lt;strong&gt;LLM&lt;/strong&gt; is a type of artificial intelligence designed to process and generate human-like text by analyzing vast amounts of data. Essentially, these models learn patterns, context, and relationships within language, enabling them to perform tasks ranging from generating simple text to solving complex problems. Think of them as advanced tools capable of writing essays, answering questions, or simulating conversations, all while adapting to the user’s tone and style. Unlike systems that are merely programmed with static answers, LLMs “learn” from their training data, making their responses dynamic and contextually aware. Whether through chatbots, search engines, or creative applications, LLMs are rapidly becoming integral to how we interact with technology.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;chatting-smarter-with-rtx-integration&#34;&gt;Chatting Smarter with RTX Integration&lt;/h1&gt;
+&lt;p&gt;11/28/2024&lt;/p&gt;
+&lt;h2 id=&#34;understanding-llms&#34;&gt;Understanding LLMs&lt;/h2&gt;
+&lt;p&gt;Most readers are likely already familiar with the concept of LLMs (Large Language Models). In today’s world, it’s hard not to be at least indirectly aware of AI, especially in the form of LLMs. For those with only a limited understanding of this concept, let’s start with a brief introduction before diving into the main topic of this post.&lt;/p&gt;
+&lt;p&gt;An &lt;strong&gt;LLM&lt;/strong&gt; is a type of artificial intelligence designed to process and generate human-like text by analyzing vast amounts of data. Essentially, these models learn patterns, context, and relationships within language, enabling them to perform tasks ranging from generating simple text to solving complex problems. Think of them as advanced tools capable of writing essays, answering questions, or simulating conversations, all while adapting to the user’s tone and style. Unlike systems that are merely programmed with static answers, LLMs “learn” from their training data, making their responses dynamic and contextually aware. Whether through chatbots, search engines, or creative applications, LLMs are rapidly becoming integral to how we interact with technology.&lt;/p&gt;
+&lt;h2 id=&#34;popular-platforms-for-interacting-with-llms&#34;&gt;Popular Platforms for Interacting with LLMs&lt;/h2&gt;
+&lt;p&gt;There are many platforms available for interacting with an LLM, each offering unique features and capabilities. Some of the most well-known include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;OpenAI’s ChatGPT&lt;/strong&gt;&lt;br&gt;
+OpenAI’s ChatGPT has set the standard for conversational AI, offering a user-friendly interface that makes it accessible to individuals and businesses alike. It’s highly versatile, supporting a wide range of tasks, from drafting emails to coding assistance, all while maintaining a conversational tone. OpenAI also offers API access, enabling developers to integrate LLM capabilities into their own applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Meta’s LLaMA&lt;/strong&gt;&lt;br&gt;
+Meta’s LLaMA (Large Language Model Meta AI) is an open-source model designed with a focus on accessibility for researchers and developers. While less polished in user-facing tools compared to ChatGPT, LLaMA’s open nature allows for deep customization and experimentation, making it a favorite among AI enthusiasts and those seeking to build tailored solutions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google’s Gemini&lt;/strong&gt;&lt;br&gt;
+Google’s Gemini brings a unique perspective to the table, often integrating tightly with Google’s ecosystem of tools and services. Known for its focus on multilingual capabilities and advanced reasoning, Gemini aims to tackle complex tasks like scientific research, providing accurate and efficient results. If you’re already tied into Google’s ecosystem, this could be an ideal option.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;openrouter.ai&lt;/strong&gt;&lt;br&gt;
+OpenRouter.ai acts as a unified platform, allowing users to route queries to multiple LLMs from different providers. This flexibility is particularly useful for comparing outputs or leveraging the strengths of various models without switching between platforms. It’s a great choice for those who want the best of all worlds, whether for research, development, or simply exploring AI’s capabilities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each of these platforms caters to slightly different needs and audiences, so choosing the right one often depends on your specific goals. Are you looking for simplicity and ease of use? Go with ChatGPT. Do you want an open playground for customization? LLaMA might be your pick. Need tight integration into your productivity tools? Gemini could be perfect. Or, if you can’t decide, openrouter.ai offers the flexibility to experiment with multiple options in one place.&lt;/p&gt;
+&lt;p&gt;No matter which platform you choose, the possibilities for leveraging LLMs are vast and growing every day.&lt;/p&gt;
+&lt;p&gt;However, using these online LLM services comes with limitations—chiefly, the number of tokens you can use. If you’re not familiar with how LLMs operate, you might be asking:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What exactly are tokens?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take this opportunity to explore and clarify this important concept.&lt;/p&gt;
+&lt;h2 id=&#34;tokens&#34;&gt;Tokens&lt;/h2&gt;
+&lt;p&gt;Tokens, at their core, are the smallest units of text that a language model processes. On a low level, this involves breaking down input text into smaller components—sometimes individual characters, other times whole words or subwords, depending on the model&amp;rsquo;s design. In hardware terms, processing these tokens requires memory allocation, computational power, and optimized storage for quick access. Each token is represented as a sequence of numbers (vectors) that the model uses to predict the next token or generate an appropriate response. The efficiency of this tokenization process directly impacts the performance and speed of the model, particularly on high-powered GPUs and TPUs designed to crunch vast amounts of numerical data in real time.&lt;/p&gt;
+&lt;p&gt;When interacting with online language models, tokens take on a more practical significance, especially in terms of cost. Many providers charge based on the number of tokens processed during a session—both the tokens in your input and the tokens generated in the output. For instance, if you input a 100-word query and the model generates a 200-word response, the total cost would depend on how these words are split into tokens, which may number several hundred in total. This token-based pricing model incentivizes users to craft concise queries while still achieving the desired result. Understanding token limits is also crucial, as models often have maximum token counts for input and output, which can restrict the complexity of the tasks they can handle.&lt;/p&gt;
+&lt;p&gt;Another important consideration is how tokens impact context and memory. In many LLMs, the total number of tokens determines how much information the model can &amp;ldquo;remember&amp;rdquo; within a single interaction. This context window governs the model’s ability to maintain coherence, track topics, or refer back to earlier parts of the conversation. If you exceed this token limit, older parts of the interaction are truncated or lost, which can lead to incomplete or disjointed responses. Recognizing this limitation is key when designing prompts or workflows to ensure your interactions remain logical and productive.&lt;/p&gt;
+&lt;p&gt;I’ve decided to dive into running local LLMs on my system. Naturally, I’m planning to explore several different approaches to make this happen—Ollama being one of the main ones on my list. But with my shiny new Nvidia RTX 4070 Ti SUPER freshly installed, I thought, &lt;em&gt;why not kick things off with Chat RTX?&lt;/em&gt; It feels like the perfect way to put this beast of a GPU to the test.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s where we are now with this blog post, so I went to the website:
+&lt;a href=&#34;https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/&#34;&gt;https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I started the download for the NVIDIA ChatRTX, however the file is 10GB and my internet is not the best sometimes, in my experiences browsers notoriously fail when downloading large files if your internet is not fast enough to download it quickly. So, I am using an application called J Downloader 2.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Picture of J Downloader, the download page&#34; src=&#34;//localhost:1313/images/jdownloader.png&#34;&gt;
+&lt;a href=&#34;https://jdownloader.org/download/index&#34;&gt;J Downloader 2 download page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And I start the download of the file:
+&lt;img alt=&#34;Picture that shows how long the download will take, it says it will take over an hour&#34; src=&#34;//localhost:1313/images/download.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Definitely going to need a coffee break.&lt;/p&gt;
+&lt;p&gt;It took a little while to complete but I was able to successfully download the installer.&lt;/p&gt;
+&lt;p&gt;I sat and asked a few questions to see if it could come up with accurate information I also have a screenshot of my task manager on the left to show how this is consuming my system resources:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image of the performance of the mistral AI bot on the chatrtx interface&#34; src=&#34;//localhost:1313/images/mistral.png&#34;&gt;
+At first the answer is satisfactory and seems to accurate describe what an SPF (Sender Policy Framework) record is. However, when you ask it to create or explain it to you, it does not provide usable results. The information it provided was wrong, v=spf1 -all does not say that every single mail server is authorized to send on your behalf, it means that no one is. So, so far the &amp;ldquo;Mistral&amp;rdquo; model in ChatRTX was not satisfactory in the accuracy of its results. I also noted that there was literally no memory of previous contact with the LLM. Every response had no recollection of previous responses, so it could be talking about SPF and cut off, then you ask it to continue and it says &amp;ldquo;Sure, what would you like me to continue?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I am currently installing Llama2 13B int4 and I will test that one out to see how it performs, if I am able to get it to run on my system. This model outperforms the previous one certainly, it is able to output more information, and it also provided accurate information. It perhaps oversimplified certain things. But, overall this was a greater response.
+&lt;img alt=&#34;Picture of the Llama2 13B model performing on the question of what is a SPF record&#34; src=&#34;//localhost:1313/images/llama2.png&#34;&gt;
+And unfortunately it does not have good memory either:
+&lt;img alt=&#34;Shows the poor memory performance of the ChatRTX models.&#34; src=&#34;//localhost:1313/images/llama21.png&#34;&gt;
+That&amp;rsquo;s going to be it for now. I wasn&amp;rsquo;t impressed enough with the chat with files feature. I&amp;rsquo;m going to look more into it and see if I can figure it out better before presenting it. Overall, I&amp;rsquo;m not too keen on ChatRTX, and I will try ollama next time when I do an Artificial Intelligence post about running local LLM&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;Thank you for reading and I hope you were able to get something from this.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//localhost:1313/posts/new-portfolio-site-and-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/new-portfolio-site-and-blog/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-my-new-blog&#34;&gt;Welcome to my new blog&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;0x00-welcome-to-my-new-blog&#34;&gt;0x00 Welcome to my new blog&lt;/h1&gt;
 &lt;p&gt;11/28/2024&lt;/p&gt;
 &lt;p&gt;Hello, and welcome to the launch of my new portfolio site and blog! 🎉 This space represents a step forward in sharing my journey, experiences, and insights across the fields that I’m passionate about.&lt;/p&gt;
 &lt;p&gt;As someone deeply invested in the worlds of cybersecurity, IT, and artificial intelligence, this blog will serve as a platform to document and share valuable content. Here’s what you can expect to find:&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;welcome-to-my-new-blog&#34;&gt;Welcome to my new blog&lt;/h1&gt;
+      <content>&lt;h1 id=&#34;0x00-welcome-to-my-new-blog&#34;&gt;0x00 Welcome to my new blog&lt;/h1&gt;
 &lt;p&gt;11/28/2024&lt;/p&gt;
 &lt;p&gt;Hello, and welcome to the launch of my new portfolio site and blog! 🎉 This space represents a step forward in sharing my journey, experiences, and insights across the fields that I’m passionate about.&lt;/p&gt;
 &lt;p&gt;As someone deeply invested in the worlds of cybersecurity, IT, and artificial intelligence, this blog will serve as a platform to document and share valuable content. Here’s what you can expect to find:&lt;/p&gt;
