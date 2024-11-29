@@ -1,4 +1,4 @@
-# Welcome to my new blog
+# 0x00 Welcome to my new blog
 11/28/2024
 
 Hello, and welcome to the launch of my new portfolio site and blog! 🎉 This space represents a step forward in sharing my journey, experiences, and insights across the fields that I’m passionate about.
