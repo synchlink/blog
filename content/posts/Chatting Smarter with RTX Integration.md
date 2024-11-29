@@ -16,8 +16,6 @@ tags:
 ---
 # Chatting Smarter with RTX Integration
 
-11/28/2024
-
 ## Understanding LLMs  
 
 Most readers are likely already familiar with the concept of LLMs (Large Language Models). In today’s world, it’s hard not to be at least indirectly aware of AI, especially in the form of LLMs. For those with only a limited understanding of this concept, let’s start with a brief introduction before diving into the main topic of this post.  
