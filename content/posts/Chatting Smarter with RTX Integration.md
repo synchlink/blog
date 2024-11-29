@@ -48,11 +48,11 @@ https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/
 
 I started the download for the NVIDIA ChatRTX, however the file is 10GB and my internet is not the best sometimes, in my experiences browsers notoriously fail when downloading large files if your internet is not fast enough to download it quickly. So, I am using an application called J Downloader 2.
 
-![[Pasted image 20241128212117.png]]
+![Picture of J Downloader, the download page](images/jdownloader.png)
 [J Downloader 2 download page](https://jdownloader.org/download/index)
 
 And I start the download of the file:
-![[Pasted image 20241128212241.png]]
+![Picture that shows how long the download will take, it says it will take over an hour](images/download.png)
 
 Definitely going to need a coffee break.
 
@@ -60,12 +60,13 @@ It took a little while to complete but I was able to successfully download the i
 
 I sat and asked a few questions to see if it could come up with accurate information I also have a screenshot of my task manager on the left to show how this is consuming my system resources:
 
-![[Pasted image 20241128231950.png]]
+![image of the performance of the mistral AI bot on the chatrtx interface](images/mistral.png)
 At first the answer is satisfactory and seems to accurate describe what an SPF (Sender Policy Framework) record is. However, when you ask it to create or explain it to you, it does not provide usable results. The information it provided was wrong, v=spf1 -all does not say that every single mail server is authorized to send on your behalf, it means that no one is. So, so far the "Mistral" model in ChatRTX was not satisfactory in the accuracy of its results. I also noted that there was literally no memory of previous contact with the LLM. Every response had no recollection of previous responses, so it could be talking about SPF and cut off, then you ask it to continue and it says "Sure, what would you like me to continue?"
 
 I am currently installing Llama2 13B int4 and I will test that one out to see how it performs, if I am able to get it to run on my system. This model outperforms the previous one certainly, it is able to output more information, and it also provided accurate information. It perhaps oversimplified certain things. But, overall this was a greater response.
-![[Pasted image 20241128232953.png]]And unfortunately it does not have good memory either:
-![[Pasted image 20241128233031.png]]
+![Picture of the Llama2 13B model performing on the question of what is a SPF record](images/llama2.png)
+And unfortunately it does not have good memory either:
+![Shows the poor memory performance of the ChatRTX models.](images/llama21.jpg)
 That's going to be it for now. I wasn't impressed enough with the chat with files feature. I'm going to look more into it and see if I can figure it out better before presenting it. Overall, I'm not too keen on ChatRTX, and I will try ollama next time when I do an Artificial Intelligence post about running local LLM's.
 
 Thank you for reading and I hope you were able to get something from this.
