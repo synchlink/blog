@@ -1,3 +1,19 @@
+---
+title: Chatting Smarter with RTX Integration
+date: 2024-11-28
+draft: false
+tags:
+  - Artificial Intelligence
+  - ChatRTX
+  - Local LLM
+  - Mistral
+  - Llama2
+  - NVIDIA
+  - TensorRT-LLM
+  - Retrieval-Augmented Generation
+  - AI Acceleration
+  - GPU Computing
+---
 # Chatting Smarter with RTX Integration
 
 11/28/2024

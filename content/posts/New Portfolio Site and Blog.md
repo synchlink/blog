@@ -1,3 +1,13 @@
+---
+title: "Welcome to my new blog"
+date: 2024-11-28
+draft: false
+tags:
+	-Cybersecurity
+	-Hacking
+	-Artificial Intelligence
+	-Information Technology
+---
 # 0x00 Welcome to my new blog
 11/28/2024
 
