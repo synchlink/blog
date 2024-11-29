@@ -1,0 +1,1 @@
+.cursor{display:inline-block;width:10px;height:20px;background-color:var(--theme-text-color,#00FF00);animation:blink 1s steps(2,start)infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
