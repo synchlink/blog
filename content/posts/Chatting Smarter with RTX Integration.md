@@ -14,7 +14,7 @@ tags:
   - AI Acceleration
   - GPU Computing
 ---
-# Chatting Smarter with RTX Integration
+# 0X01 Chatting Smarter with RTX Integration
 
 ## Understanding LLMs  
 
