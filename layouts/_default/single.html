@@ -20,6 +20,10 @@
     {{- end -}}
   </div>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+
+
   {{ if .Params.tags }}
     <span class="post-tags">
       {{ range .Params.tags }}
@@ -47,21 +51,13 @@
   </div>
 
 
-<div class="share-buttons">
-    <p>Share this post:</p>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" 
-       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
-        <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" 
-       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
-        <i class="fab fa-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" 
-       target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
-        <i class="fab fa-x-twitter"></i> X (Twitter)
-    </a>
-</div>
+<!-- Share Buttons Section -->
+
+
+<!-- Will Implement Later, was trying to do now and it kept glitching out and not working -->
+
+
+<!-- End Share Button Section -->
 
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
@@ -73,3 +69,4 @@
   {{ end }}
 </article>
 {{ end }}
+
