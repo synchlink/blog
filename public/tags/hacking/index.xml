@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking on TCPNullSec Blog</title>
+    <link>//localhost:1313/tags/hacking/</link>
+    <description>Recent content in Hacking on TCPNullSec Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="//localhost:1313/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Portfolio Site and Blog</title>
+      <link>//localhost:1313/posts/new-portfolio-site-and-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/new-portfolio-site-and-blog/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-new-blog&#34;&gt;Welcome to my new blog&lt;/h1&gt;
+&lt;p&gt;Hello, and welcome to the launch of my new portfolio site and blog! 🎉 This space represents a step forward in sharing my journey, experiences, and insights across the fields that I’m passionate about.&lt;/p&gt;
+&lt;p&gt;As someone deeply invested in the worlds of cybersecurity, IT, and artificial intelligence, this blog will serve as a platform to document and share valuable content. Here’s what you can expect to find:&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;welcome-to-my-new-blog&#34;&gt;Welcome to my new blog&lt;/h1&gt;
+&lt;p&gt;Hello, and welcome to the launch of my new portfolio site and blog! 🎉 This space represents a step forward in sharing my journey, experiences, and insights across the fields that I’m passionate about.&lt;/p&gt;
+&lt;p&gt;As someone deeply invested in the worlds of cybersecurity, IT, and artificial intelligence, this blog will serve as a platform to document and share valuable content. Here’s what you can expect to find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CTF Writeups:&lt;/strong&gt; Whether you’re learning the ropes of ethical hacking or looking for solutions to tricky challenges, I’ll be sharing my approaches and insights to Capture The Flag (CTF) competitions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Malware Analysis:&lt;/strong&gt; As I delve deeper into this fascinating field, I’ll share my discoveries, tools, and techniques to unravel how malware operates and how we can defend against it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Artificial Intelligence:&lt;/strong&gt; From emerging trends to practical applications in security and IT, I’ll explore how AI is shaping the future.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;IT &amp;amp; Cybersecurity:&lt;/strong&gt; With years of hands-on experience in these fields, I’ll post tips, tutorials, and perspectives to help professionals and enthusiasts alike.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This site isn’t just about sharing knowledge—it&amp;rsquo;s also about connecting with like-minded individuals who share a passion for technology and security. If you’re into learning new techniques, geeking out about the latest trends, or even just exploring what’s possible in the ever-evolving tech landscape, I hope you’ll join me on this journey.&lt;/p&gt;
+&lt;p&gt;Feel free to explore my portfolio, connect with me on &lt;a href=&#34;https://www.linkedin.com/in/jesse-miller-tcp/&#34;&gt;LinkedIn&lt;/a&gt;. Here’s to building a community where we can all grow, learn, and thrive together!&lt;/p&gt;
+&lt;p&gt;Let’s get started!&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
